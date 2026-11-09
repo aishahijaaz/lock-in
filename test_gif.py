@@ -1,0 +1,7 @@
+from PIL import Image
+
+gif = Image.open("assets/cat_idle.gif")
+
+print("GIF loaded successfully!")
+print("Size:", gif.size)
+print("Frames:", gif.n_frames)
